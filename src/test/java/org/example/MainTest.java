@@ -81,7 +81,7 @@ public class MainTest {
         //Given
         int number = 15;
         //then
-        assertTrue(Main.isPrime(number));
+        assertFalse(Main.isPrime(number));
     }
 
     //TDD Red -> Green -> Refactor
